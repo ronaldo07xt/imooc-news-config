@@ -1,0 +1,4 @@
+blackIp:
+  continueCounts: ${counts:30}    #ip连续请求的次数
+  timeInterval: ${interval:30}    #ip判断的时间间隔 单位：秒
+  limitTimes: ${times:45}         #限制的时间，单位：秒
